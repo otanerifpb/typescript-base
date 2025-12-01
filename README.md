@@ -1,16 +1,16 @@
 # typescript-base
 
 # --------------------Links inportantes para estudo
-Link 01 - https://www.youtube.com/watch?v=eMtxXnHfOMw ---------------------------------------------[primeiros passos no TypeScript]
-Link 02 - https://gemini.google.com/app/a954b8f3f9319bec ------------------------------------------[perguntas ao Gimini]
-Link 03 - https://gemini.google.com/app/b41e75faecb0abec ------------------------------------------[pesquisa Gimini sobre TypeScript]
+Link 01 - https://www.youtube.com/watch?v=eMtxXnHfOMw --[primeiros passos no TypeScript]
+Link 02 - https://gemini.google.com/app/a954b8f3f9319bec --[perguntas ao Gimini]
+Link 03 - https://gemini.google.com/app/b41e75faecb0abec --[pesquisa Gimini sobre TypeScript]
 Link 04 - https://github.com/franciscodnn/pweb1-2025-2/blob/main/classes/1_environment/README.md --[material apoio prof. Francisco Dantas - PWeb 1]
-Link 05 - https://github.com/franciscodnn/pweb1-2025-2/blob/main/classes/README.md ----------------[todas as aulas prof. Dantas - PWeb1]
+Link 05 - https://github.com/franciscodnn/pweb1-2025-2/blob/main/classes/README.md --[todas as aulas prof. Dantas - PWeb1]
 
 # -------------------Curiosidades
-**Para subsstituir todos os termos de um código ao mesmo tempo basta selecionar "Crtl + H" e escrever na caixa 1 o termo antigo e na caixa 2 o noto termo depois selecionar sunstituit tudo.
-**Para chamar o "console.log" basta escrever log + Tab.
-**Para saber como comentar uma linha de de código click em "Ctrl + ;", idependente de linguaem e IDE.
+ara subsstituir todos os termos de um código ao mesmo tempo basta selecionar "Crtl + H" e escrever na caixa 1 o termo antigo e na caixa 2 o noto termo depois selecionar sunstituit tudo.
+Para chamar o "console.log" basta escrever log + Tab.
+Para saber como comentar uma linha de de código click em "Ctrl + ;", idependente de linguaem e IDE.
 
 # ----------Config 01 - Baixar e instalar Node.js no PC, basta seguir os passo de instalação do site
 Link Node.js - https://nodejs.org/pt > Latest LTS(Recomendada)
@@ -25,7 +25,7 @@ $ mkdir pastaBaseProjeto "typeScript"
 $ cd typeScript
 
 # ----------Config 03 - Instalar TypeScript na Pasta Base do Projeto pelo Power Shell
-$ tsc --version  ou tsc -v -----------[verificar a versão do TypeScript instalado, ***se der erro, não está instalado no projeto***, não está instalado]
+$ tsc --version  ou tsc -v --[verificar a versão do TypeScript instalado, ***se der erro, não está instalado no projeto***, não está instalado]
 $ npm i typescript --global ----------[vai instalar o TypeScript de forma Global no PC]
 $ npm install -g typescript ----------[vai instalar o TypeScript de forma Global no PC]
 $ npx tsc --version ------------------[verificar a versão do TypeScript instalado, global]
@@ -33,8 +33,7 @@ $ npm install typescript --save-dev --[instalar o TypeScript no projeto com toda
 "npm install" responsável pela biblioteca do TypeScript e cria a pasta "node_modules"
 "typescript" responsável por compilar o TypeScript pelo "tsc" e converter os "arquivos.ts" para "arquivos.js"
 "--save-dev" responsável por informar ao "npm" como registrar a instalação, registra o Typescript na seção "devDependencies" e no "package.json"
-
-$ tsc -v		       [verificar a versão do TypeScript está instalado, em 10/2025 "5.9.3"]
+$ tsc -v --[verificar a versão do TypeScript está instalado, em 10/2025 "5.9.3"]
 $ npm ls typescript [verifica a versão do TypeScript nas dependência do projeto] 
 
 # ----------Config 04 - Acessar o VSCode na Pasta Base do Projeto pelo Power Shell
