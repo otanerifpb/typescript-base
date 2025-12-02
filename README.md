@@ -65,10 +65,10 @@
 
 # Config 04 - Acessar o VSCode na Pasta Base do Projeto pelo Power Shell
 ```bash
-  npm ls typescript$ npm install typescript --save-dev
+  npm ls typescript
 ```
 ```bash
-  npm ls typescript$ npm install typescript --save-dev
+  npm install typescript --save-dev
 ```
 ```bash
   cd typeScript
