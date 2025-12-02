@@ -14,36 +14,59 @@
 
 # Config 01 - Baixar e instalar Node.js no PC, basta seguir os passo de instalação do site
 * Link [Node.js](https://nodejs.org/pt) > Latest LTS(Recomendada)
+* Testar e verificar se Node.js, está instalado, em 10/2025 "8.1.3"
 ```bash
   $ npm -v ou $ npm --version
-```
-* testar e verificar se Node.js, está instalado, em 10/2025 "8.1.3"
+``` 
 
 # Config 02 - Criar WorSpace/SubPasta/PastaBase do Projeto pelo Power Shell e acessar o VSCode
-$ mkdir workSpace "wsifpb" --[comando para criar uma pasta]
-$ cd wsifpb -----------------[comando para acessar uma pasta]
-$ mkdir subPastaProjeto "pweb"
-$ cd pweb
-$ mkdir pastaBaseProjeto "typeScript"
-$ cd typeScript
+* Comando para criar uma pasta Ex. "wsifpb", "pweb", "typeScript", ...
+```bash
+  $ mkdir workSpace 
+``` 
+* Comando para acessar uma pasta Ex. "wsifpb", "pweb", "typeScript", ...
+```bash
+  $ cd wsifpb
+```
 
 # Config 03 - Instalar TypeScript na Pasta Base do Projeto pelo Power Shell
-$ tsc --version  ou tsc -v -----------[verificar a versão do TypeScript instalado, ***se der erro, não está instalado no projeto***, não está instalado]
-$ npm i typescript --global ----------[vai instalar o TypeScript de forma Global no PC]
-$ npm install -g typescript ----------[vai instalar o TypeScript de forma Global no PC]
-$ npx tsc --version ------------------[verificar a versão do TypeScript instalado, global]
-$ npm install typescript --save-dev --[instalar o TypeScript no projeto com todas as dependências necessárias para projeto funcionar]
-"npm install" responsável pela biblioteca do TypeScript e cria a pasta "node_modules"
-"typescript" responsável por compilar o TypeScript pelo "tsc" e converter os "arquivos.ts" para "arquivos.js"
-"--save-dev" responsável por informar ao "npm" como registrar a instalação, registra o Typescript na seção "devDependencies" e no "package.json"
-$ tsc -v		       [verificar a versão do TypeScript está instalado, em 10/2025 "5.9.3"]
-$ npm ls typescript [verifica a versão do TypeScript nas dependência do projeto] 
+* Verificar a versão do TypeScript instalado, ***se der erro, não está instalado no projeto***, não está instalado
+```bash
+  $ tsc --version  ou tsc -v
+```
+* Vai instalar o TypeScript de forma Global no PC
+```bash
+ $ npm i typescript --global
+```
+* Vai instalar o TypeScript de forma Global no PC
+```bash
+  $ npm install -g typescript
+```
+* Verificar a versão do TypeScript instalado, global
+```bash
+ $ npx tsc --version
+```
+* Instalar o TypeScript no projeto com todas as dependências necessárias para projeto funcionar
+```bash
+  $ npm install typescript --save-dev
+```
+  `npm install` responsável pela biblioteca do TypeScript e cria a pasta `node_modules`
+  `typescript` responsável por compilar o TypeScript pelo `tsc` e converter os `arquivos.ts` para `arquivos.js`
+  `--save-dev` responsável por informar ao `npm` como registrar a instalação, registra o Typescript na seção `devDependencies` e no `package.json`
+* Verificar a versão do TypeScript está instalado, em 10/2025 "5.9.3"
+```bash
+  $ tsc -v
+```
+* Verifica a versão do TypeScript nas dependência do projeto
+```bash
+  $ npm ls typescript$ npm install typescript --save-dev
+```
 
 # Config 04 - Acessar o VSCode na Pasta Base do Projeto pelo Power Shell
 $ cd typeScript
 $ code . [comando para acessar o VSCode na pasta so projeto que se encontra]
 
-# Config 05 - Criar arquico "tsconfig.json"
+# Config 05 - Criar arquico `tsconfig.json`
 Para abrir um Terminal, basta > Terminal > Novo Terminal, lembra de estar dentro da Pasta Base do Projeto
 $ cd typeScript
 $ tsc --init ou npx tsc --init [criar arquivo "tsconfig.json" con todas as configurações necessárias para o TypeScript]
