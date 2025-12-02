@@ -23,69 +23,69 @@
 # Config 02 - Criar WorSpace/SubPasta/PastaBase do Projeto pelo Power Shell e acessar o VSCode
 * Comando para criar uma pasta Ex. "wsifpb", "pweb", "typeScript", ...
 ```bash
-  $ mkdir workSpace 
+  mkdir workSpace 
 ``` 
 * Comando para acessar uma pasta Ex. "wsifpb", "pweb", "typeScript", ...
 ```bash
-  $ cd wsifpb
+  cd wsifpb
 ```
 
 # Config 03 - Instalar TypeScript na Pasta Base do Projeto pelo Power Shell
 * Verificar a versão do TypeScript instalado, ***se der erro, não está instalado no projeto***, não está instalado
 ```bash
-  $ tsc --version  ou tsc -v
+  tsc --version  ou tsc -v
 ```
 * Vai instalar o TypeScript de forma Global no PC
 ```bash
- $ npm i typescript --global
+ npm i typescript --global
 ```
 * Vai instalar o TypeScript de forma Global no PC
 ```bash
-  $ npm install -g typescript
+  npm install -g typescript
 ```
 * Verificar a versão do TypeScript instalado, global
 ```bash
- $ npx tsc --version
+ npx tsc --version
 ```
 * Instalar o TypeScript no projeto com todas as dependências necessárias para projeto funcionar
 ```bash
-  $ npm install typescript --save-dev
+  npm install typescript --save-dev
 ```
- ** `npm install` responsável pela biblioteca do TypeScript e cria a pasta `node_modules`
+  ** `npm install` responsável pela biblioteca do TypeScript e cria a pasta `node_modules`
   **`typescript` responsável por compilar o TypeScript pelo `tsc` e converter os `arquivos.ts` para `arquivos.js`
   **`--save-dev` responsável por informar ao `npm` como registrar a instalação, registra o Typescript na seção `devDependencies` e no `package.json`
 * Verificar a versão do TypeScript está instalado, em 10/2025 "5.9.3"
 ```bash
-  $ tsc -v
+  tsc -v
 ```
 * Verifica a versão do TypeScript nas dependência do projeto
 ```bash
-  $ npm ls typescript$ npm install typescript --save-dev
+  npm ls typescript$ npm install typescript --save-dev
 ```
 
 # Config 04 - Acessar o VSCode na Pasta Base do Projeto pelo Power Shell
 ```bash
-  $ npm ls typescript$ npm install typescript --save-dev
+  npm ls typescript$ npm install typescript --save-dev
 ```
 ```bash
-  $ npm ls typescript$ npm install typescript --save-dev
+  npm ls typescript$ npm install typescript --save-dev
 ```
 ```bash
-  $ cd typeScript
+  cd typeScript
 ```
 * Comando para acessar o VSCode na pasta so projeto que se encontra
 ```bash
-  $ code .
+  code .
 ```
 
 # Config 05 - Criar arquico `tsconfig.json`
 Para abrir um Terminal, basta > Terminal > Novo Terminal, lembra de estar dentro da Pasta Base do Projeto
 ```bash
-  $ cd typeScript
+  cd typeScript
 ```
 * Criar arquivo "tsconfig.json" con todas as configurações necessárias para o TypeScript
 ```bash
-  $ tsc --init ou npx tsc --init
+  tsc --init ou npx tsc --init
 ```
 
 # Config 06 - Criar Pasta/Arquino no VSCode
@@ -97,33 +97,33 @@ Para abrir um Terminal, basta > Terminal > Novo Terminal, lembra de estar dentro
 # Config 07 - Compilar/Executar/Rodar código do TypeScript com JavaScript
 * Converte os "arquivos.ts" para "arquivos.js", cria os arquivos necessários para compilar o código
 ```bash
- $ npx tsc
+ npx tsc
 ```
 * Para ver o resultado do código no arquivo "index.js", rodar/executar o código dentro da pasta
 ```bash
-  $ tsc index.js
+  tsc index.js
 ```
 * Para rodar o código sem está dentro da pasta
 ```bash
-  $ node nomePasta\arquivo.js
+  node nomePasta\arquivo.js
 ```
 * Converte os `arquivos.ts` para `arquivos.js`, para poder rodar no ".html"
 ```bash
-  $ npx tsc
+  npx tsc
 ```
 * Permite executar o TypeScript direto no Node.js, executar na pasta do projeto
 ```bash
-  $ npm install --sace-dev @types/node ts-node tsx
+  npm install --sace-dev @types/node ts-node tsx
 ```
 * Para executyar `arquivo.ts`, sem transformar o `arquivo.ts` em `arquico.js`
 ```bash
-  $ npx tsx arquivo.ts
+  npx tsx arquivo.ts
 ```
 * Para verificar se tem algum erro no código, mas não vai mostrar nada se estiver tudo OK
 ```bash
-  $ tsc arquivo.ts
+  tsc arquivo.ts
 ```
 * Para executyar "arquivo.ts", sem está  dentro pasta
 ```bash
-  $ npx tsx ./pasta/arquivo.ts
+  npx tsx ./pasta/arquivo.ts
 ```
