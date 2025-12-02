@@ -5,7 +5,7 @@
 * Link 02 - [Perguntas ao Gimini](https://gemini.google.com/app/a954b8f3f9319bec)
 * Link 03 - [Pesquisa Gimini sobre TypeScript](https://gemini.google.com/app/b41e75faecb0abec)
 * Link 04 - [Material apoio prof. Francisco Dantas - PWeb 1](https://github.com/franciscodnn/pweb1-2025-2/blob/main/classes/1_environment/README.md)
-* Link 05 - [todas as aulas prof. Dantas - PWeb1](https://github.com/franciscodnn/pweb1-2025-2/blob/main/classes/README.md)
+* Link 05 - [Todas as aulas prof. Dantas - PWeb1](https://github.com/franciscodnn/pweb1-2025-2/blob/main/classes/README.md)
 
 # Curiosidades
 **Para subsstituir todos os termos de um código ao mesmo tempo basta selecionar "Crtl + H" e escrever na caixa 1 o termo antigo e na caixa 2 o noto termo depois selecionar sunstituit tudo.
