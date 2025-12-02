@@ -51,9 +51,9 @@
 ```bash
   npm install typescript --save-dev
 ```
-  *`npm install` responsável pela biblioteca do TypeScript e cria a pasta `node_modules`
-  *`typescript` responsável por compilar o TypeScript pelo `tsc` e converter os `arquivos.ts` para `arquivos.js`
-  *`--save-dev` responsável por informar ao `npm` como registrar a instalação, registra o Typescript na seção `devDependencies` e no `package.json`
+  * `npm install` responsável pela biblioteca do TypeScript e cria a pasta `node_modules`
+  * `typescript` responsável por compilar o TypeScript pelo `tsc` e converter os `arquivos.ts` para `arquivos.js`
+  * `--save-dev` responsável por informar ao `npm` como registrar a instalação, registra o Typescript na seção `devDependencies` e no `package.json`
 * Verificar a versão do TypeScript está instalado, em 10/2025 "5.9.3"
 ```bash
   tsc -v
