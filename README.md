@@ -8,13 +8,13 @@
 * Link 05 - [Todas as aulas prof. Dantas - PWeb1](https://github.com/franciscodnn/pweb1-2025-2/blob/main/classes/README.md)
 
 # Curiosidades
-**Para subsstituir todos os termos de um código ao mesmo tempo basta selecionar "Crtl + H" e escrever na caixa 1 o termo antigo e na caixa 2 o noto termo depois selecionar sunstituit tudo.
-**Para chamar o "console.log" basta escrever log + Tab.
-**Para saber como comentar uma linha de de código click em "Ctrl + ;", idependente de linguaem e IDE.
+*Para subsstituir todos os termos de um código ao mesmo tempo basta selecionar `Crtl + H` e escrever na caixa 1 o termo antigo e na caixa 2 o noto termo depois selecionar sunstituit tudo.
+*Para chamar o `console.log` basta escrever `log + Tab`.
+*Para saber como comentar uma linha de de código click em `Ctrl + ;`, idependente de linguaem e IDE.
 
 # Config 01 - Baixar e instalar Node.js no PC, basta seguir os passo de instalação do site
-Link Node.js - https://nodejs.org/pt > Latest LTS(Recomendada)
-$ npm -v ou $ npm --version --[testar e verificar se Node.js, está instalado, em 10/2025 "8.1.3"]
+* Link [Node.js](https://nodejs.org/pt) > Latest LTS(Recomendada)
+```bash $ npm -v ou $ npm --version ``` testar e verificar se Node.js, está instalado, em 10/2025 "8.1.3"
 
 # Config 02 - Criar WorSpace/SubPasta/PastaBase do Projeto pelo Power Shell e acessar o VSCode
 $ mkdir workSpace "wsifpb" --[comando para criar uma pasta]
